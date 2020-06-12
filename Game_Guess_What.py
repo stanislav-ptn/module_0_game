@@ -1,12 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 import numpy as np
-        
-        
+                
 def score_game(game_core):
     '''Запускаем игру 1000 раз, чтобы узнать, как быстро игра угадывает число'''
     count_ls = []
@@ -39,10 +32,3 @@ def game_core_v3(number):
 
 
 score_game(game_core_v3)
-
-
-# In[ ]:
-
-
-
-
